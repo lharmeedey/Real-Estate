@@ -4,7 +4,9 @@
     font-size: 20px;
 }
 .bee{
-    margin-left: 1px;
+     
+    border-left: white 1px solid;
+    border-right: solid 1px white; 
 }
 .cee{
     color: #98B3C7;
