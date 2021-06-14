@@ -9,13 +9,21 @@
 }
 .icon2{
     font-size: 20px;
-    margin-top: 10px;
-    color: white;
+    
 }
 .img1{
     height: 200px;
     width: 500px;
 }
 .rae{
-   background-color:  #185481;
+   background-color:  #ff1dc2 ;
+   color: black;
+}
+.dropdown-item:hover{
+    background-color:  #ff1dc2;
+    color: green;
+}
+button:hover{
+    background-color: #dd00a2;
+    border: 0px;
 }

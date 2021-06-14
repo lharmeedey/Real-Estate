@@ -1,0 +1,19 @@
+button:hover{
+    background-color: #dd00a2;
+    border: 0px;
+}
+div>ul>li{
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.row1{
+    background-color: #ff1dc2;
+    padding:80px 80px 0;
+    
+}
+.row2{
+    background-color: #dd00a2;
+    padding:15px 20px 0;
+    
+}

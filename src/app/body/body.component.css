@@ -18,7 +18,7 @@
     font-size: 18px;
 }
 
-li{
+.list-item{
     display: inline-block;
     padding: 0px;
 }
