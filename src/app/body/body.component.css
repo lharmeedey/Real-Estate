@@ -24,3 +24,29 @@
     display: inline-block;
     padding: 0px;
 }
+
+/* #umbotron{
+    background-image: url(../../assets/jaso.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:600px;
+} */
+.gee{
+    background-color: #FF1DC2;
+    
+}
+.ech{
+    font-size: 18px;
+}
+.image{
+    border-radius: 5px;
+}
+.cont{
+    margin-bottom: 100px;
+}
+.hig{
+    font-size: 30px;
+    color: black;
+}
