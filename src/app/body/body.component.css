@@ -43,6 +43,10 @@
 .image{
     border-radius: 5px;
 }
+.image:hover{
+    opacity: 0.5;
+    transform: rotateY(180deg);
+}
 .cont{
     margin-bottom: 100px;
 }
@@ -60,5 +64,29 @@
     background-color:  #FF1DC2;
 }
 .container-1{
-    background-color: gray;
+   background-color:whitesmoke;
+     
+}
+
+.ell{
+    font-size: 20px;
+}
+.hem{
+    border-left: 1px solid rgb(224, 218, 218);
+}
+.hen{
+    background-color: skyblue;
+
+}
+.card{
+    box-shadow: 0 6px 10ox(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .5s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.ooh{
+    background-color: #1C4B6A;
 }
