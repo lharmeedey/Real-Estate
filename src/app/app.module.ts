@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { BodyComponent } from './body/body.component';
 import { FooterComponent } from './footer/footer.component';
 import { PropertiesSliderComponent } from './properties-slider/properties-slider.component';
+import { ShowcaseEstateComponent } from './body/showcase-estate/showcase-estate.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PropertiesSliderComponent } from './properties-slider/properties-slider
     HeaderComponent,
     BodyComponent,
     FooterComponent,
-    PropertiesSliderComponent
+    PropertiesSliderComponent,
+    ShowcaseEstateComponent
   ],
   imports: [
     BrowserModule,
