@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PropertiesSliderComponent } from './properties-slider/properties-slider.component';
 import { AppComponent } from './app.component';
 import { BodyComponent } from './body/body.component';
+import { ShowcaseEstateComponent } from './body/showcase-estate/showcase-estate.component';
 
 const routes: Routes = [
   {
@@ -16,7 +17,12 @@ const routes: Routes = [
   {
     path:'home',
     component:BodyComponent
+  },
+  {
+    path:'showcase',
+    component:ShowcaseEstateComponent
   }
+  
   
 ];
 
